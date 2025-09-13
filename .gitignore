@@ -1,0 +1,63 @@
+# ---------------------------------------------------------------
+# Project-specific ignored files
+# ---------------------------------------------------------------
+# Ignore this example file which contains sensitive information.
+*.eml
+
+# Ignore help/documentation file
+HELP.md
+
+# ---------------------------------------------------------------
+# Generated files and build artifacts
+# ---------------------------------------------------------------
+# Maven build directory
+target/
+
+# Ignore the Maven wrapper JAR
+# The wrapper files (outside the .jar) are important to commit
+# for cross-platform builds.
+.mvn/wrapper/maven-wrapper.jar
+
+# However, do NOT ignore the `target` directory in sub-projects
+# inside the src/main and src/test folders.
+# This might be for specific sub-modules, which is an unusual rule.
+# Consider if this is truly needed or can be simplified.
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# The root-level build directory for NetBeans
+build/
+
+# However, do NOT ignore the `build` directory in sub-projects
+# inside the src/main and src/test folders.
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ---------------------------------------------------------------
+# IDE-specific ignored files
+# ---------------------------------------------------------------
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
